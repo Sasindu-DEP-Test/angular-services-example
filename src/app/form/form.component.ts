@@ -23,9 +23,6 @@ export class FormComponent {
     const customer: Customer = { id: this.id, name: this.name };
     console.log(customer);
     this.customerService.addCustomer(customer, false);
-    // // Clear form fields (optional)
-    // this.id = 0;
-    // this.name = '';
   }
 
   updateID(value: string) {
