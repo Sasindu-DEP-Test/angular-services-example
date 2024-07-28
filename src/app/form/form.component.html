@@ -1,0 +1,10 @@
+<form>
+
+  <div>
+    <input type="text" #id placeholder="ID" (input)="updateID(id.value)">
+  </div>
+  <div>
+    <input type="text" #name placeholder="Name"  (input)="updateName(name.value)">
+  </div>
+  <button  class="btn btn-primary" (click)="addCustomer()">ADD</button>
+</form>

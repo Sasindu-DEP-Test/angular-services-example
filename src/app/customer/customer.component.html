@@ -1,0 +1,8 @@
+
+<div class="form-check row align-items-center">
+
+  <input type="checkbox" class="form-check-input col-1" id="customer" (input)="removeCustomer(customer!.id)">
+  <label class="form-check-label col-auto">
+    {{ customer!.id }} - {{ customer!.name }}
+  </label>
+</div>
